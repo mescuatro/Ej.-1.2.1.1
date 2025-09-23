@@ -26,3 +26,11 @@ main {
 .offcanvas-top{
     height: fit-content;
 }
+
+#lista {
+    color: white;
+}
+
+.estrellas {
+  color: gold;
+}
