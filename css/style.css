@@ -27,10 +27,17 @@ main {
     height: fit-content;
 }
 
-#lista {
+.list-group-item{
+    background-color: rgba(10, 9, 15, 0.877);
     color: white;
+    padding-top: 1em;
 }
 
 .estrellas {
   color: gold;
+}
+
+#btnMore {
+    width: fit-content;
+    display: flex;
 }
