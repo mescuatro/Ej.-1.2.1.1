@@ -98,7 +98,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const bud = document.getElementById('budget');
     const rev = document.getElementById('revenue');
 
-    ye.textContent = `Year: ${item.year}`;
+    ye.textContent = `Year: ${item.release_date.slice(0, 4)}`;
     run.textContent = `Runtime: ${item.runtime}`;
     bud.textContent = `Budget: ${item.budget}`;
     rev.textContent = `Revenue: ${item.revenue}`;
